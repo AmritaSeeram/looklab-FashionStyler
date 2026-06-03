@@ -43,10 +43,10 @@ const amazonOutfits = {
       },
       {
         category: "Top",
-        title: "Leith Women's Long Blazer",
-        url: "https://www.amazon.com/dp/B0C3H5RLB7",
+        title: "Calvin Klein Women's One-Button Blazer",
+        url: "https://www.amazon.com/dp/B09FQ4GRW6",
         image: "https://m.media-amazon.com/images/I/71HByWcJXwL._AC_UX679_.jpg",
-        price: 99,
+        price: 145,
       },
       {
         category: "Top",
@@ -143,10 +143,10 @@ const amazonOutfits = {
       },
       {
         category: "Bottom",
-        title: "Liverpool Stevie Lightweight Jean",
-        url: "https://www.amazon.com/dp/B07S7VZS58",
+        title: "Halogen High-Rise Wide-Leg Pant",
+        url: "https://www.amazon.com/dp/B08P25KY5V",
         image: "https://m.media-amazon.com/images/I/71a-5GgaJ0L._AC_UX679_.jpg",
-        price: 98,
+        price: 68,
       },
       {
         category: "Shoes",
@@ -187,17 +187,17 @@ const amazonOutfits = {
       },
       {
         category: "Top",
-        title: "Vince Camuto Satin Blouse",
-        url: "https://www.amazon.com/dp/B08RD9F8ZB",
+        title: "Goddiva Women's Satin Cowl Neck Top",
+        url: "https://www.amazon.com/dp/B0BY1MLVN6",
         image: "https://m.media-amazon.com/images/I/71DPaqhs70L._AC_UX679_.jpg",
-        price: 59,
+        price: 72,
       },
       {
         category: "Top",
-        title: "Tahari ASL Ruffle Sleeve Top",
-        url: "https://www.amazon.com/dp/B08TR26M4K",
+        title: "Calvin Klein Women's One-Button Blazer",
+        url: "https://www.amazon.com/dp/B09FQ4GRW6",
         image: "https://m.media-amazon.com/images/I/71zIViOP6pL._AC_UX679_.jpg",
-        price: 95,
+        price: 145,
       },
       {
         category: "Bottom",
@@ -352,8 +352,8 @@ const amazonOutfits = {
       },
       {
         category: "Accessories",
-        title: "Herschel Settlement Backpack",
-        url: "https://www.amazon.com/dp/B01A6YWT9K",
+        title: "Herschel Supply Co. Nova Backpack",
+        url: "https://www.amazon.com/dp/B0711WV9H1",
         image: "https://m.media-amazon.com/images/I/81N2xggjK3L._AC_UX679_.jpg",
         price: 60,
       },
@@ -391,10 +391,10 @@ const amazonOutfits = {
       },
       {
         category: "Bottom",
-        title: "Lee Men's Performance Series Straight Fit Pant",
-        url: "https://www.amazon.com/dp/B08BJ8RZFG",
+        title: "Levi's Men's 512 Slim Taper Fit Jeans",
+        url: "https://www.amazon.com/dp/B07DC8J6G5",
         image: "https://m.media-amazon.com/images/I/81mSDL0S1xL._AC_UX679_.jpg",
-        price: 64,
+        price: 78,
       },
       {
         category: "Shoes",
@@ -528,10 +528,10 @@ const amazonOutfits = {
       },
       {
         category: "Accessories",
-        title: "Fossil Grant Chronograph Leather Watch",
-        url: "https://www.amazon.com/dp/B07C3BSKG9",
+        title: "Timex Men's Weekender Watch",
+        url: "https://www.amazon.com/dp/B003VAHYNC",
         image: "https://m.media-amazon.com/images/I/71+AaLPb7eL._AC_UX679_.jpg",
-        price: 99,
+        price: 45,
       },
       {
         category: "Accessories",
@@ -586,10 +586,10 @@ const amazonOutfits = {
       },
       {
         category: "Accessories",
-        title: "Fossil Men's Nate Stainless Steel Chronograph",
-        url: "https://www.amazon.com/dp/B07G7MSD8F",
+        title: "Timex Men's Weekender Watch",
+        url: "https://www.amazon.com/dp/B003VAHYNC",
         image: "https://m.media-amazon.com/images/I/71f3KnjK0AL._AC_UX679_.jpg",
-        price: 95,
+        price: 45,
       },
       {
         category: "Accessories",

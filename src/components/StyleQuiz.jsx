@@ -88,7 +88,7 @@ export default function StyleQuiz({ setOutfit }) {
       <input id="color" name="color" placeholder="Sunset tones, neutrals, bold jewel tones" />
 
       <label htmlFor="budget">Target Budget</label>
-      <input id="budget" name="budget" type="number" min="50" defaultValue="250" required placeholder="Enter budget in USD" />
+      <input id="budget" name="budget" type="number" min="20" defaultValue="250" required placeholder="Enter budget in USD" />
 
       <label htmlFor="comfort">Body Comfort Preference</label>
       <select id="comfort" name="comfort" defaultValue="Balanced" required>
