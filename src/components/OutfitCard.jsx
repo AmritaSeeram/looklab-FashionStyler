@@ -29,41 +29,6 @@ export default function OutfitCard({ outfit, saveLook }) {
       </div>
 
       <div className="visual-reference">
-        <div className="avatar-panel">
-          <div className="avatar-visual">
-            <div className={`avatar-figure ${outfit.gender}`}>
-              <div className="stick-head" />
-              <div className="stick-neck" />
-              <div className="stick-torso" />
-              <div className="stick-arm stick-arm-left" />
-              <div className="stick-arm stick-arm-right" />
-              <div className="stick-leg stick-leg-left" />
-              <div className="stick-leg stick-leg-right" />
-              <div className="stick-foot stick-foot-left" />
-              <div className="stick-foot stick-foot-right" />
-            </div>
-          </div>
-          <div className="avatar-copy">
-            <div className="visual-card-title">Avatar preview</div>
-            <p className="visual-copy">Your Amazon look is shown with real item thumbnails so you can preview the outfit instantly.</p>
-            <div className="avatar-items">
-              <div><strong>Top:</strong> {outfit.top}</div>
-              <div><strong>Bottom:</strong> {outfit.bottom}</div>
-              <div><strong>Shoes:</strong> {outfit.shoes}</div>
-              <div><strong>Accessories:</strong> {outfit.accessories}</div>
-            </div>
-            <div className="price-summary">
-              <div className="price-label">Estimated total</div>
-              <div className="price-value">${outfit.totalPrice.toFixed(0)}</div>
-              <div className={`price-status ${outfit.budgetFit ? "good" : "over"}`}>
-                {outfit.budgetFit
-                  ? `Within your $${outfit.budget} budget`
-                  : `Over budget by $${Math.max(0, outfit.totalPrice - outfit.budget).toFixed(0)}`}
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div className="visual-summary">
           <div className="visual-card-title">Color palette</div>
           <p className="visual-copy">A soft, expressive palette that supports your outfit direction.</p>
@@ -94,7 +59,6 @@ export default function OutfitCard({ outfit, saveLook }) {
           <div className="amazon-grid">
             {outfit.amazonProducts.map((product) => (
               <a key={product.title} href={product.url} target="_blank" rel="noreferrer" className="amazon-card">
-                <img src={product.image} alt={product.title} />
                 <div className="amazon-meta">
                   <span className="amazon-category">{product.category}</span>
                   <p>{product.title}</p>

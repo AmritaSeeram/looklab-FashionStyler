@@ -444,25 +444,23 @@ button:hover {
 }
 
 .amazon-card {
-  display: grid;
-  gap: 12px;
+  display: block;
   text-decoration: none;
   border-radius: 24px;
-  overflow: hidden;
   background: #fff;
   border: 1px solid rgba(219, 207, 242, 0.9);
   box-shadow: 0 18px 36px rgba(111, 74, 149, 0.08);
 }
 
-.amazon-card img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
+.amazon-meta {
+  padding: 18px;
 }
 
-.amazon-meta {
-  padding: 14px;
+.amazon-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 22px 40px rgba(111, 74, 149, 0.14);
 }
+
 
 .amazon-category {
   display: inline-flex;
