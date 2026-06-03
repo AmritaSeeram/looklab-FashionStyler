@@ -50,6 +50,16 @@ export default function OutfitCard({ outfit, saveLook }) {
         <div>Comfort: {outfit.comfort}</div>
       </div>
 
+      <div className="price-summary">
+        <div className="price-label">Estimated total</div>
+        <div className="price-value">${outfit.totalPrice?.toFixed(0) ?? "0"}</div>
+        <div className={`price-status ${outfit.budgetFit ? "good" : "over"}`}>
+          {outfit.budgetFit
+            ? `Within your $${outfit.budget} budget`
+            : `Over budget by $${Math.max(0, outfit.totalPrice - outfit.budget).toFixed(0)}`}
+        </div>
+      </div>
+
       {outfit.amazonProducts?.length > 0 && (
         <div className="amazon-list">
           <div className="section-label">
