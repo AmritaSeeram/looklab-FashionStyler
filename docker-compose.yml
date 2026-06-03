@@ -1,0 +1,50 @@
+version: '3.8'
+
+services:
+  nginx-proxy:
+    image: jwilder/nginx-proxy:latest
+    container_name: nginx-proxy
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+      - ./deploy/certs:/etc/nginx/certs:rw
+      - ./deploy/vhost.d:/etc/nginx/vhost.d:rw
+      - ./deploy/html:/usr/share/nginx/html:rw
+    networks:
+      - webproxy
+
+  letsencrypt:
+    image: jrcs/letsencrypt-nginx-proxy-companion:latest
+    container_name: nginx-letsencrypt
+    restart: always
+    environment:
+      - NGINX_PROXY_CONTAINER=nginx-proxy
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./deploy/certs:/etc/nginx/certs:rw
+      - ./deploy/vhost.d:/etc/nginx/vhost.d:rw
+      - ./deploy/html:/usr/share/nginx/html:rw
+    networks:
+      - webproxy
+    depends_on:
+      - nginx-proxy
+
+  looklab:
+    build: .
+    container_name: looklab
+    restart: always
+    environment:
+      - VIRTUAL_HOST=${VIRTUAL_HOST}
+      - LETSENCRYPT_HOST=${LETSENCRYPT_HOST}
+      - LETSENCRYPT_EMAIL=${LETSENCRYPT_EMAIL}
+    expose:
+      - "80"
+    networks:
+      - webproxy
+
+networks:
+  webproxy:
+    external: false
