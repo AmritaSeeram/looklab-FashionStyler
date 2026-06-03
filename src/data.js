@@ -100,7 +100,7 @@ const amazonOutfits = {
       {
         category: "Accessories",
         title: "Anne Klein Women's Leather Strap Watch",
-        url: "https://www.amazon.com/dp/B00CKFL93I",
+        url: "https://www.amazon.com/dp/B08VF1HN57",
         image: "https://m.media-amazon.com/images/I/71ds1CunwSL._AC_UX679_.jpg",
         price: 78,
       },
@@ -158,14 +158,14 @@ const amazonOutfits = {
       {
         category: "Shoes",
         title: "Steve Madden Women's Vala Slide",
-        url: "https://www.amazon.com/dp/B08WZH6K1F",
+        url: "https://www.amazon.com/dp/B07KR878GJ",
         image: "https://m.media-amazon.com/images/I/71bXhdHreCL._AC_UX679_.jpg",
         price: 88,
       },
       {
         category: "Accessories",
         title: "Fossil Women's Riley Stainless Steel Watch",
-        url: "https://www.amazon.com/dp/B07NVLQM78",
+        url: "https://www.amazon.com/dp/B08VF1HN57",
         image: "https://m.media-amazon.com/images/I/71xQ82IkniL._AC_UX679_.jpg",
         price: 68,
       },
@@ -216,7 +216,7 @@ const amazonOutfits = {
       {
         category: "Bottom",
         title: "Vince Camuto Satin Midi Skirt",
-        url: "https://www.amazon.com/dp/B09PXF5QT9",
+        url: "https://www.amazon.com/dp/B0FW4L8BQC",
         image: "https://m.media-amazon.com/images/I/81S5Izk6lKL._AC_UX679_.jpg",
         price: 84,
       },
@@ -237,7 +237,7 @@ const amazonOutfits = {
       {
         category: "Accessories",
         title: "Kate Spade New York Quilted Clutch",
-        url: "https://www.amazon.com/dp/B07RHSJPTG",
+        url: "https://www.amazon.com/dp/B0GZJ2MFNZ",
         image: "https://m.media-amazon.com/images/I/71stGIev8iL._AC_UX679_.jpg",
         price: 58,
       },
@@ -267,14 +267,14 @@ const amazonOutfits = {
       {
         category: "Bottom",
         title: "Allegra K Women's High Waist Pencil Skirt",
-        url: "https://www.amazon.com/dp/B0787Z4LHV",
+        url: "https://www.amazon.com/dp/B0FW4L8BQC",
         image: "https://m.media-amazon.com/images/I/61ZPsH5l65L._AC_UX679_.jpg",
         price: 38,
       },
       {
         category: "Bottom",
         title: "Milumia Women's Sequin Mini Skirt",
-        url: "https://www.amazon.com/dp/B07MWXKMD7",
+        url: "https://www.amazon.com/dp/B0FFZ5PQZG",
         image: "https://m.media-amazon.com/images/I/71iIFAzf+nL._AC_UX679_.jpg",
         price: 62,
       },
@@ -288,7 +288,7 @@ const amazonOutfits = {
       {
         category: "Shoes",
         title: "Sam Edelman Women's Kari Rhinestone Sandal",
-        url: "https://www.amazon.com/dp/B07N8T3QLK",
+        url: "https://www.amazon.com/dp/B0FFZ5PQZG",
         image: "https://m.media-amazon.com/images/I/71NwQyL9HLL._AC_UX679_.jpg",
         price: 110,
       },
@@ -353,7 +353,7 @@ const amazonOutfits = {
       {
         category: "Accessories",
         title: "Herschel Supply Co. Nova Backpack",
-        url: "https://www.amazon.com/dp/B0711WV9H1",
+        url: "https://www.amazon.com/dp/B00RBA878O",
         image: "https://m.media-amazon.com/images/I/81N2xggjK3L._AC_UX679_.jpg",
         price: 60,
       },
@@ -378,7 +378,7 @@ const amazonOutfits = {
       {
         category: "Top",
         title: "Calvin Klein Men's Stretch Performance Blazer",
-        url: "https://www.amazon.com/dp/B0B4XJ1QNZ",
+        url: "https://www.amazon.com/dp/B07NY9LK4D",
         image: "https://m.media-amazon.com/images/I/71sU4fYwUyL._AC_UX679_.jpg",
         price: 120,
       },
@@ -392,7 +392,7 @@ const amazonOutfits = {
       {
         category: "Bottom",
         title: "Levi's Men's 512 Slim Taper Fit Jeans",
-        url: "https://www.amazon.com/dp/B07DC8J6G5",
+        url: "https://www.amazon.com/dp/B0FN6WB7VP",
         image: "https://m.media-amazon.com/images/I/81mSDL0S1xL._AC_UX679_.jpg",
         price: 78,
       },
@@ -464,7 +464,7 @@ const amazonOutfits = {
       {
         category: "Shoes",
         title: "Nike Men's Court Vision Low Sneaker",
-        url: "https://www.amazon.com/dp/B08J42BQP6",
+        url: "https://www.amazon.com/dp/B0D48125X1",
         image: "https://m.media-amazon.com/images/I/71iP8g+hzWL._AC_UX679_.jpg",
         price: 88,
       },
@@ -478,7 +478,7 @@ const amazonOutfits = {
       {
         category: "Accessories",
         title: "Herschel Supply Co. Nova Backpack",
-        url: "https://www.amazon.com/dp/B0711WV9H1",
+        url: "https://www.amazon.com/dp/B00RBA878O",
         image: "https://m.media-amazon.com/images/I/81bD+rqLkBL._AC_UX679_.jpg",
         price: 60,
       },
@@ -494,7 +494,7 @@ const amazonOutfits = {
       {
         category: "Top",
         title: "Kenneth Cole Reaction Slim Fit Dress Shirt",
-        url: "https://www.amazon.com/dp/B00X2UO6LI",
+        url: "https://www.amazon.com/dp/B0B321VXZF",
         image: "https://m.media-amazon.com/images/I/71SVQoJZfsL._AC_UX679_.jpg",
         price: 60,
       },
@@ -552,7 +552,7 @@ const amazonOutfits = {
       {
         category: "Top",
         title: "Bonobos Weekday Warrior Shirt",
-        url: "https://www.amazon.com/dp/B083VJBRKV",
+        url: "https://www.amazon.com/dp/B0BMTHJ3KG",
         image: "https://m.media-amazon.com/images/I/71QTmV7ZTuL._AC_UX679_.jpg",
         price: 110,
       },
@@ -566,7 +566,7 @@ const amazonOutfits = {
       {
         category: "Bottom",
         title: "Levi's Men's 512 Slim Taper Fit Jeans",
-        url: "https://www.amazon.com/dp/B07DC8J6G5",
+        url: "https://www.amazon.com/dp/B0FN6WB7VP",
         image: "https://m.media-amazon.com/images/I/81NsRF0FUjL._AC_UX679_.jpg",
         price: 78,
       },
@@ -580,7 +580,7 @@ const amazonOutfits = {
       {
         category: "Shoes",
         title: "Cole Haan Men's Cramerton Wingtip Oxford",
-        url: "https://www.amazon.com/dp/B074Q54W9F",
+        url: "https://www.amazon.com/dp/B0FCY7DXGZ",
         image: "https://m.media-amazon.com/images/I/71dQW7GzB2L._AC_UX679_.jpg",
         price: 100,
       },
@@ -638,7 +638,7 @@ const amazonOutfits = {
       {
         category: "Shoes",
         title: "Nike Men's Air Force 1 Low Sneaker",
-        url: "https://www.amazon.com/dp/B07NJ6NN5B",
+        url: "https://www.amazon.com/dp/B08XTWF6DH",
         image: "https://m.media-amazon.com/images/I/71jYel-9ipL._AC_UX679_.jpg",
         price: 95,
       },
